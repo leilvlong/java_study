@@ -1,4 +1,4 @@
-// while Êä³ö:DoobeeDoobeedo
+// while å¾ªçŽ¯è¾“å‡º:DoobeeDoobeedo
 public class Doobee{
     public static void main( String args[]){
         int x = 0;
@@ -7,7 +7,7 @@ public class Doobee{
             System.out.print("bee");
 			x++;
             if ( x==2 ){
-                System.out.print("do¹þ¹þ");
+                System.out.print("doå“ˆå“ˆ");
             }
         }
     }
