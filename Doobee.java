@@ -1,14 +1,14 @@
-﻿// while循环： 输出doobeedoobeedo
+// while ѭ��
 public class Doobee{
     public static void main( String args[]){
         int x = 0;
         while( x<2 ){
             System.out.print("doo");
             System.out.print("bee");
-            if ( x==1 ){
+			x++;
+            if ( x==2 ){
                 System.out.print("do");
             }
-            x++;
         }
     }
 }
