@@ -1,4 +1,4 @@
-// while Ðé»Ã
+// while ??DoobeeDoobeedo
 public class Doobee{
     public static void main( String args[]){
         int x = 0;
