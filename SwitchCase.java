@@ -51,6 +51,22 @@ class SwitchCase{
 			System.out.println("kb的输出");
 			kb++;
 		}while(kb<4);
+		
+		// break 与 continue
+		for(int item=0; item<30; item++){
+			if(item == 10){
+				System.out.println("循环被强制终止,此时item: "+item);
+				break;
+			}
+		}
+		
+		for(int item=0; item<10; item++){
+			if(item == 5){
+				System.out.println("循环被跳过,此时item: "+item);
+				continue;
+			}
+			System.out.println(item);
+		}
 	}
 }
 
